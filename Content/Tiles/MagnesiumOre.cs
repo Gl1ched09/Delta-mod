@@ -25,7 +25,6 @@ public class MagnesiumOre : ModTile
         DustType = 84;
         ItemDrop = ModContent.ItemType<Items.MagnesiumOre>();
         HitSound = SoundID.Tink;
-        // MineResist = 4f;
-        // MinPick = 200;
+        MinPick = 55;
     }
 }
