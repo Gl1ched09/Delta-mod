@@ -27,7 +27,7 @@ public class MagnesiumOrePass : GenPass
 
     protected override void ApplyPass(GenerationProgress progress, GameConfiguration configuration)
     {
-        progress.Message = "Instinct: Magnesium Ore";
+        progress.Message = "Generating Modded Ore";
 
         for (var k = 0; k < (int)(Main.maxTilesX * Main.maxTilesY * 6E-05); k++)
         {
