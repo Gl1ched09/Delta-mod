@@ -1,0 +1,3 @@
+displayName = Delta Mod
+author = Gl1ched09
+version = 0.0.1
