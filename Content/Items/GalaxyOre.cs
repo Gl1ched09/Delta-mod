@@ -17,6 +17,12 @@ namespace InstinctMod.Content.Items
             Item.height = 16;
             Item.value = 1000;
             Item.maxStack = 9999;
+            Item.consumable = true;
+            Item.useStyle = ItemUseStyleID.Swing;
+            Item.useAnimation = 10;
+            Item.useTime = 1;
+            Item.autoReuse=true;
+            Item.createTile = ModContent.TileType<Content.Tiles.GalaxyOre>();
         }
 
         public override void AddRecipes()
